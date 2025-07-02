@@ -5,6 +5,7 @@ A basic JSP-based user authentication system that demonstrates:
 - Login page (`login.jsp`)
 - Signup page (`signup.jsp`)
 - Login validation (`logincheck.jsp`)
+- Signup handling & user registration (`signupprocess.jsp`)
 - Home page (`home.jsp`) shown after successful login
 - Session handling for user authentication
 
@@ -20,6 +21,7 @@ A basic JSP-based user authentication system that demonstrates:
 
 ## 🧭 How It Works
 - `signup.jsp`: User enters new credentials (mock or DB-based storage)
+- `signupprocess.jsp`: Handles signup logic: checks for existing user and inserts new record
 - `login.jsp`: User enters credentials to log in
 - `logincheck.jsp`: Verifies credentials and starts session
 - `home.jsp`: Displays user-specific content using session attributes
